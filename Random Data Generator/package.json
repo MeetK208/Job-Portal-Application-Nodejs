@@ -1,0 +1,17 @@
+{
+  "name": "random-data-generator",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Generate Data",
+  "main": "randomDataGenerator.js",
+  "scripts": {
+    "start": "node randomDataGenerator.js",
+    "server": "nodemon randomDataGenerator.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "^5.5.3",
+    "fs": "^0.0.1-security"
+  }
+}
