@@ -1,7 +1,7 @@
 // const express = require('express');
 import express from "express";
 import dotenv from "dotenv";
-import colors from "colors/index.js";
+import colors from "colors";
 import cors from "cors";
 import morgan from "morgan";
 import mongoose from "mongoose";
